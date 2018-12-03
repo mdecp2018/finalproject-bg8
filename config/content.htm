@@ -2,34 +2,84 @@
 <p>Finalproject-bg8 期末分組網站</p>
 <p>學習目標目標:<a href="https://github.com/mdecourse/cp2018/issues/22">https://github.com/mdecourse/cp2018/issues/22</a></p>
 <p>本倉儲位於<span style="color: #626262; background-color: #ffffff;">:</span><span style="color: #626262; background-color: #ffffff;"><a href="https://github.com/mdecp2018/finalproject-bg8">https://github.com/mdecp2018/finalproject-bg8</a><a href="https://github.com/mdecp2018/finalproject-bg8"></a></span></p>
-<p><span style="color: #626262; background-color: #ffffff;">雲端Finalproject-bg8</span><span style="color: #626262; background-color: #ffffff;">:</span><span style="color: #626262; background-color: #ffffff;"></span></p>
-<p><span style="color: #626262; background-color: #ffffff;"><a href="https://cp2018-bg8.herokuapp.com/get_page/%E7%B0%A1%E4%BB%8B">https://cp2018bg8.herokuapp.com/get_page/%E7%B0%A1%E4%BB%8B</a></span></p>
+<p><span style="color: #626262; background-color: #ffffff;"><strong>雲端</strong>Finalproject-bg8 期末分組網站:<a href="/get_page/">https://cp2018-bg8.herokuapp.com/</a></span></p>
 <p><span style="color: #626262; background-color: #ffffff;">Members:</span></p>
-<p><a href="https://github.com/mdecp2018/site-s40723218">40723218 </a>(期中自評分數:60)</p>
-<p><span style="color: #626262; background-color: #ffffff;"><a href="https://github.com/mdecp2018/site-s40723222"><span style="background-color: #ffffff; color: #626262;">40723222 </span></a>(期中自評分數:60)</span></p>
-<p><span style="color: #626262; background-color: #ffffff;"><a href="https://github.com/mdecp2018/site-s40723230">40723230</a> (期中自評分數:)</span></p>
-<p><a href="https://github.com/mdecp2018/site-s40723231"><span style="color: #626262; background-color: #ffffff;">40723231 </span></a>(期中自評分數:)</p>
-<p><span style="color: #626262; background-color: #ffffff;"><a href="https://github.com/mdecp2018/site-s40723242">40723242 </a>(期中自評分數:80)<a href="https://github.com/s40723242"></a></span></p>
-<p><a href="https://github.com/mdecp2018/site-s40723250"><span style="background-color: #ffffff; color: #626262;">40723250 </span></a>(期中自評分數:75)<span style="color: #626262; background-color: #ffffff;"></span></p>
+<p><a href="https://github.com/s40723218">40723218</a></p>
+<p><span style="color: #626262; background-color: #ffffff;"><a href="https://github.com/s40723222">40723222</a></span></p>
+<p><a href="https://github.com/s40723230"><span style="color: #626262; background-color: #ffffff;">40723230</span></a></p>
+<p><a href="https://github.com/s40723231"><span style="color: #626262; background-color: #ffffff;">40723231</span></a></p>
+<p><span style="color: #626262; background-color: #ffffff;"><a href="https://github.com/s40723242">40723242</a></span></p>
+<p><a href="https://github.com/s40723250"><span style="background-color: #ffffff; color: #626262;">40723250</span></a><span style="color: #626262; background-color: #ffffff;"></span></p>
 <p><span style="background-color: #ffffff; color: #626262;"></span></p>
 <h1><span style="background-color: #ffffff; color: #626262;">教學相關網站</span></h1>
 <p><a href="https://www.google.com.tw/">Google</a></p>
+<p><a href="https://dashboard.heroku.com/">Heroku</a></p>
 <p><a href="https://github.com/">Github</a></p>
 <p><a href="http://mde.tw/#/">MDE</a></p>
 <p><a href="https://www.youtube.com/channel/UCJ0Ye3mhMApH0yxAcwCXs5g/videos">MDE-Youtube</a></p>
 <h1><span style="background-color: #ffffff; color: #626262;">每周進度</span></h1>
 <h2>week 10</h2>
 <p>1.更新p37</p>
+<p><a href="https://drive.google.com/file/d/17FpZJrwARPH3_ql4b7d-I4RyJo9vT2Xu/view?usp=sharing" rel="nofollow">P37-18.11</a></p>
+<p>將stop.<span>bat以SciTE開啟,並將其內容改成,如下</span></p>
+<pre><code>@echo off
+set Disk=y
+REM 關閉 SciTE
+taskkill /IM Sc1.exe /F
+REM 關閉 python
+taskkill /IM python.exe /F
+taskkill /IM pythonw.exe /F
+REM 關閉 stunnel
+taskkill /IM stunnel.exe /F
+REM 關閉 fossil
+taskkill /IM fossil.exe /F
+rem taskkill /IM sharex.exe /F
+REM 清除 log 資料
+path=%PATH%;
+REM del /Q /F  V:\tmp\*.*
+REM 終止虛擬硬碟與目錄的對應
+subst %Disk%: /D
+REM 關閉 cmd 指令視窗
+taskkill /IM cmd.exe /F
+REM taskkill /IM mingw32 /F
+EXIT</code></pre>
 <p>2.教學<a href="https://eric-ide.python-projects.org/eric-download.html">Eric</a>、<a href="https://www.qt.io/">QT </a>、<a href="https://sourceforge.net/projects/pyqt/">PyQt</a></p>
+<p><span class="js-issue-title">3.以 Eric6 開發 PyQt5 視窗程式:</span><span class="js-issue-title"><span>隨身系統更新後, 以 eric6 開啟 IDE 後, 希望可以在近端以 PyQt5 視窗程式解讀 CMSimfly 的 content.htm 資料內容,如下</span></span></p>
+<pre><code># coding: utf-8
+
+import sys
+import os
+from PyQt5 import QtCore, QtWidgets, QtWebEngineWidgets
+
+app = QtWidgets.QApplication(sys.argv)
+view = QtWebEngineWidgets.QWebEngineView()
+
+
+view.load(QtCore.QUrl().fromLocalFile(
+    os.path.split(os.path.abspath(__file__))[0]+r'./content.htm'
+))
+
+view.show()
+sys.exit(app.exec())</code></pre>
+<h2>week 11</h2>
+<p><span style="background-color: #ffffff; color: #626262;">1.創建一個Heroku帳號</span></p>
+<p><span style="background-color: #ffffff; color: #626262;">2.將Github的分組倉儲跟Heroku的雲端網站做link</span></p>
+<p><span style="background-color: #ffffff; color: #626262;">3.達到更改即呈現之便利性</span></p>
+<h1><span style="background-color: #ffffff; color: #626262;">閱讀專區</span></h1>
+<h2 class="gh-header-title"><span class="js-issue-title">Week 10</span></h2>
+<p><a href="https://github.com/mdecourse/cp2018/issues/27"><span class="js-issue-title">控制流程</span></a></p>
+<p><a href="https://github.com/mdecourse/cp2018/issues/28"><span class="js-issue-title">複製與參照</span></a></p>
+<p><a href="https://github.com/mdecourse/cp2018/issues/29"><span class="js-issue-title">Qt 引導內容 - 物件導向</span></a></p>
+<h2>Week 11</h2>
+<p><a href="https://github.com/mdecourse/cp2018/issues/31"><span class="js-issue-title">Qt 引導內容 - Python 與 C / C++ 簽章</span></a></p>
+<p><a href="https://github.com/mdecourse/cp2018/issues/32"><span class="js-issue-title">協同引導內容 - Python 類型註解</span></a></p>
 <h1><span style="background-color: #ffffff; color: #626262;">每周教學影片</span></h1>
 <h2>week.10</h2>
 <p><yt-formatted-string class="style-scope ytd-video-primary-info-renderer">說明如何利用新版的 P37-18.11 中的 eric6 開發視窗程式</yt-formatted-string></p>
-<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/iOBPj72CW2A" width="560"></iframe></p>
+<p><iframe allowfullscreen="allowfullscreen" data-mce-fragment="1" height="314" src="//www.youtube.com/embed/iOBPj72CW2A" width="560"></iframe></p>
 <h2>week.11</h2>
-<p><strong>1.</strong><yt-formatted-string class="style-scope ytd-video-primary-info-renderer">分組期末專案範例說明</yt-formatted-string></p>
-<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/Ui_8E4fIzXE" width="560"></iframe></p>
-<p><strong>2.</strong><yt-formatted-string class="style-scope ytd-video-primary-info-renderer">說明如何利用 Heroku 雲端服務, 伺服各分組的期末專題倉儲中的動態程式, 並與 Github 倉儲內容保持自動同步</yt-formatted-string></p>
-<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/2QDqaj_oF3U" width="560"></iframe></p>
-<h1>組員練習影片</h1>
-<h2>week-10</h2>
-<p><span style="color: #626262; background-color: #ffffff;"></span></p>
+<p><yt-formatted-string class="style-scope ytd-video-primary-info-renderer"><span style="background-color: #ffffff; color: #626262;"><em><strong>1.</strong></em>分</span>組期末專案範例說明</yt-formatted-string></p>
+<p><iframe allowfullscreen="allowfullscreen" data-mce-fragment="1" height="314" src="//www.youtube.com/embed/Ui_8E4fIzXE" width="560"></iframe></p>
+<p><em><strong>2.</strong></em><yt-formatted-string class="style-scope ytd-video-primary-info-renderer"><span> </span>說明如何利用 Heroku 雲端服務, 伺服各分組的期末專題倉儲中的動態程式, 並與 Github 倉儲內容保持自動同步</yt-formatted-string></p>
+<p><iframe allowfullscreen="allowfullscreen" data-mce-fragment="1" height="314" src="//www.youtube.com/embed/2QDqaj_oF3U" width="560"></iframe></p>
+<p></p>
