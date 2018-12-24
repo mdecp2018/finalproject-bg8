@@ -23,6 +23,7 @@
 <v t="leo.20180827201621.8" a="E"><vh>slides div</vh>
 <v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
+<v t="leo.20181224135324.1"><vh>封面投影片</vh></v>
 </v>
 <v t="leo.20180827201621.11" a="E"><vh>快捷鍵</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
@@ -37,6 +38,12 @@
 <v t="leo.20180827201621.18" a="E"><vh>導入影片</vh>
 <v t="leo.20180827201621.19"><vh>iframe 導入影片</vh></v>
 </v>
+</v>
+<v t="leo.20181224135322.1" a="E"><vh>封面投影片</vh>
+<v t="leo.20181224135322.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20181224134500.1" a="E"><vh>封面投影片</vh>
+<v t="leo.20181224134500.2"><vh>封面投影片內容</vh></v>
 </v>
 </v>
 </v>
@@ -124,7 +131,7 @@ QLineEdit#editorLabel {
 <t tx="leo.20180827201556.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
 <t tx="leo.20180827201621.1"></t>
-<t tx="leo.20180827201621.10">## 2018Fall 分組網際簡報
+<t tx="leo.20180827201621.10">### Finalproject-bg8 分組網際簡報
 
 ### 虎科大機械設計工程系
 
@@ -132,7 +139,7 @@ vertical: body pane on the botton</t>
 Created by [KMOLab](http://lab.kmol.info/)
 &lt;/small&gt;
 
-[2018 Fall 分組網誌](./../blog/index.html)
+[Finalproject-bg8 分組網誌](./../blog/index.html)
 
 
 </t>
@@ -318,6 +325,57 @@ make.start()
 
 </t>
 <t tx="leo.20180827201621.9">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181224134500.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181224134500.2">### Finalproject-bg8 分組網際簡報
+
+### 虎科大機械設計工程系
+
+&lt;small&gt;
+Created by [KMOLab](http://lab.kmol.info/)
+&lt;/small&gt;
+
+[Finalproject-bg8 分組網誌](./../blog/index.html)
+
+
+</t>
+<t tx="leo.20181224135322.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181224135322.2">### Finalproject-bg8 分組網際簡報
+
+### 虎科大機械設計工程系
+
+&lt;small&gt;
+Created by [KMOLab](http://lab.kmol.info/)
+&lt;/small&gt;
+
+[Finalproject-bg8 分組網誌](./../blog/index.html)
+
+
+</t>
+<t tx="leo.20181224135324.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
