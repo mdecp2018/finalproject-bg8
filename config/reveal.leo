@@ -24,22 +24,22 @@
 <v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20180827201621.11" a="E"><vh>快捷鍵</vh>
-<v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
+<v t="leo.20180827201621.13" a="E"><vh>python</vh>
+<v t="leo.20180827201621.14" a="E"><vh>python語法-1</vh>
+<v t="leo.20180827201621.15"><vh>01</vh></v>
 </v>
-<v t="leo.20180827201621.13" a="E"><vh>各式內容引用範例</vh>
-<v t="leo.20180827201621.14" a="E"><vh>導入數學符號與方程式</vh>
-<v t="leo.20180827201621.15"><vh>LaTeX 格式方程式</vh></v>
+<v t="leo.20180827201621.16" a="E"><vh>python語法-2</vh>
+<v t="leo.20180827201621.17"><vh>02</vh></v>
 </v>
-<v t="leo.20180827201621.16" a="E"><vh>導入縮排程式碼</vh>
-<v t="leo.20180827201621.17"><vh>引用程式碼</vh></v>
-</v>
-<v t="leo.20180827201621.18" a="E"><vh>導入影片</vh>
-<v t="leo.20180827201621.19"><vh>iframe 導入影片</vh></v>
+<v t="leo.20180827201621.18" a="E"><vh>python語法-3</vh>
+<v t="leo.20180827201621.19"><vh>03</vh></v>
 </v>
 </v>
-<v t="leo.20181224135322.1" a="E"><vh>封面投影片</vh>
+<v t="leo.20181224135322.1"><vh>封面投影片</vh>
 <v t="leo.20181224135322.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20180827201621.11" a="E"><vh>python</vh>
+<v t="leo.20180827201621.12"><vh>python語法</vh></v>
 </v>
 <v t="leo.20181224134500.1" a="E"><vh>封面投影片</vh>
 <v t="leo.20181224134500.2"><vh>封面投影片內容</vh></v>
@@ -151,15 +151,13 @@ Created by [KMOLab](http://lab.kmol.info/)
 
 						
 </t>
-<t tx="leo.20180827201621.12"># 投影片快捷鍵
+<t tx="leo.20180827201621.12"># Python 語法
 
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
-
+* hello world的語法如下：
+&lt;from PIL import Image
+img=Image.open(https://upload.cc/i1/2019/01/03/oRwVJf.png')
+img.show()&gt;
+* variable屬於動態語言的一種，不具有型態資訊，語法如下 text="hello world";
 </t>
 <t tx="leo.20180827201621.13">&lt;section&gt;
 @others
@@ -177,13 +175,11 @@ Created by [KMOLab](http://lab.kmol.info/)
 
 						
 </t>
-<t tx="leo.20180827201621.15"># 數學符號與方程式
+<t tx="leo.20180827201621.15"># Python 語法
 
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
-
-$$I = \int \rho R^{2} dV$$
-</t>
+* hello world的語法如下：
+&lt;p&gt;&lt;a href="https://upload.cc/i1/2019/01/03/oRwVJf.png"&gt;&lt;img src="https://upload.cc/i1/2019/01/03/oRwVJf.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+* variable屬於動態語言的一種，不具有型態資訊，語法如下 &lt;p&gt;&lt;a href="https://upload.cc/i1/2019/01/03/KImaoj.png"&gt;&lt;img src="https://upload.cc/i1/2019/01/03/KImaoj.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;</t>
 <t tx="leo.20180827201621.16">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -195,34 +191,8 @@ $$I = \int \rho R^{2} dV$$
 
 						
 </t>
-<t tx="leo.20180827201621.17">## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-@language python
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
-
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
-</t>
+<t tx="leo.20180827201621.17">* if elif else以縮排當作區塊的，如下&lt;p&gt;&lt;a href="https://upload.cc/i1/2019/01/03/VBzU9K.png"&gt;&lt;img src="https://upload.cc/i1/2019/01/03/VBzU9K.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+我們再多加elif以及else，elif在其他語言就是else if，這個程式碼下，並不會有false這個顯示，只有error這個顯示，因為5沒有小於3所以程式就跑到了elif這段，但是2一樣並沒有大於3所以就又跑到了else這一段，如下&lt;p&gt;&lt;a href="https://upload.cc/i1/2019/01/03/lr5ywC.png"&gt;&lt;img src="https://upload.cc/i1/2019/01/03/lr5ywC.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;</t>
 <t tx="leo.20180827201621.18">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -232,12 +202,7 @@ make.start()
 
 						
 </t>
-<t tx="leo.20180827201621.19">## 使用 iframe 導入影片
-
-### 導入影片 template
-
-&lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-</t>
+<t tx="leo.20180827201621.19">* for while用99乘法表當作範例，如下&lt;p&gt;&lt;a href="https://upload.cc/i1/2019/01/03/oHDgp2.png"&gt;&lt;img src="https://upload.cc/i1/2019/01/03/oHDgp2.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;range的第一個參數為起始值，第二個參數為終止值，第三個參數為遞增值，如下&lt;p&gt;&lt;a href="https://upload.cc/i1/2019/01/03/IWlwg9.png"&gt;&lt;img src="https://upload.cc/i1/2019/01/03/IWlwg9.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;</t>
 <t tx="leo.20180827201621.2"></t>
 <t tx="leo.20180827201621.3">@language xml
 @tabwidth -4
