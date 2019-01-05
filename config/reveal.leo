@@ -49,31 +49,40 @@
 <v t="leo.20190105145450.1" a="E"><vh>WEEK16~17</vh>
 <v t="leo.20190105145450.2"><vh>03</vh></v>
 </v>
-<v t="leo.20190105152206.1" a="E"><vh>回顧</vh>
-<v t="leo.20190105152206.2" a="E"><vh>回顧</vh>
-<v t="leo.20190105152206.3"><vh>02</vh></v>
 </v>
-<v t="leo.20190105152206.4" a="E"><vh>WEEK10</vh>
-<v t="leo.20190105152206.5"><vh>01</vh></v>
+<v t="leo.20190105152206.1" a="E"><vh>python</vh>
+<v t="leo.20190105152206.2" a="E"><vh>程式語言-1</vh>
+<v t="leo.20190105152206.3"><vh>01</vh></v>
 </v>
-<v t="leo.20190105152206.6" a="E"><vh>week11</vh>
-<v t="leo.20190105152206.7"><vh>02</vh></v>
+<v t="leo.20190105152206.4" a="E"><vh>程式語言-2</vh>
+<v t="leo.20190105152206.5"><vh>02</vh></v>
 </v>
-<v t="leo.20190105152206.8" a="E"><vh>week12</vh>
-<v t="leo.20190105152206.9"><vh>02</vh></v>
+<v t="leo.20190105152206.6" a="E"><vh>程式語言-3</vh>
+<v t="leo.20190105152206.7"><vh>03</vh></v>
 </v>
-<v t="leo.20190105152206.10" a="E"><vh>week13</vh>
-<v t="leo.20190105152206.11"><vh>03</vh></v>
+<v t="leo.20190105152206.8" a="E"><vh>程式語言-4</vh>
+<v t="leo.20190105152206.9"><vh>04</vh></v>
 </v>
-<v t="leo.20190105152206.12" a="E"><vh>week14~15</vh>
-<v t="leo.20190105152206.13"><vh>03</vh></v>
+<v t="leo.20190105152206.10" a="E"><vh>程式語言-5</vh>
+<v t="leo.20190105152206.11"><vh>05</vh></v>
 </v>
-<v t="leo.20190105152206.14" a="E"><vh>WEEK16~17</vh>
-<v t="leo.20190105152206.15"><vh>03</vh></v>
+<v t="leo.20190105152206.12" a="E"><vh>程式語言-6</vh>
+<v t="leo.20190105152206.13"><vh>06</vh></v>
+</v>
+<v t="leo.20190105152206.14" a="E"><vh>程式語言-7</vh>
+<v t="leo.20190105152206.15"><vh>07</vh></v>
+</v>
+<v t="leo.20181224135322.1" a="E"><vh>程式語言-8</vh>
+<v t="leo.20181224135322.2"><vh>08</vh></v>
+</v>
+<v t="leo.20180827201621.11" a="E"><vh>程式語言-9</vh>
+<v t="leo.20180827201621.12"><vh>09</vh></v>
+</v>
+<v t="leo.20181224134500.1" a="E"><vh>程式語言-10</vh>
+<v t="leo.20181224134500.2"><vh>10</vh></v>
 </v>
 </v>
-</v>
-<v t="leo.20180827201621.13" a="E"><vh>python</vh>
+<v t="leo.20180827201621.13"><vh>python</vh>
 <v t="leo.20180827201621.14" a="E"><vh>python語法-1</vh>
 <v t="leo.20180827201621.15"><vh>01</vh></v>
 </v>
@@ -83,15 +92,6 @@
 <v t="leo.20180827201621.18" a="E"><vh>python語法-3</vh>
 <v t="leo.20180827201621.19"><vh>03</vh></v>
 </v>
-</v>
-<v t="leo.20181224135322.1"><vh>封面投影片</vh>
-<v t="leo.20181224135322.2"><vh>封面投影片內容</vh></v>
-</v>
-<v t="leo.20180827201621.11" a="E"><vh>python</vh>
-<v t="leo.20180827201621.12"><vh>python語法</vh></v>
-</v>
-<v t="leo.20181224134500.1" a="E"><vh>封面投影片</vh>
-<v t="leo.20181224134500.2"><vh>封面投影片內容</vh></v>
 </v>
 </v>
 </v>
@@ -205,13 +205,7 @@ Created by [Finalproject-bg8](https://mdecp2018.github.io/finalproject-bg8/conte
 
 						
 </t>
-<t tx="leo.20180827201621.12"># Python 語法
-
-* hello world的語法如下：
-&lt;from PIL import Image
-img=Image.open(https://upload.cc/i1/2019/01/03/oRwVJf.png')
-img.show()&gt;
-* variable屬於動態語言的一種，不具有型態資訊，語法如下 text="hello world";
+<t tx="leo.20180827201621.12">* Modules or package ( 也稱為library )，"modules" or "packages"：通常是其他人寫好的函數或指令，打包成一個工具庫方便分享使用。(非python內建，可能會需要下載安裝)，課程會用到的library有numpy (array), matplotlib (基本繪圖), basemap (地圖),netCDF (讀nc檔)
 </t>
 <t tx="leo.20180827201621.13">&lt;section&gt;
 @others
@@ -366,13 +360,7 @@ img.show()&gt;
 
 						
 </t>
-<t tx="leo.20181224134500.2">### 小遊戲
-
-
-
-
-
-</t>
+<t tx="leo.20181224134500.2">* 使用方式：import module_name，在執行工具庫內的指令之前，就要先把modules 引進來(不然python不會認得非內建的指令)，使用工具庫內的指令：module_name.function (or module_name.constant)，可以使用import module_name as xxx (xxx是你自己取的縮寫)，使用指令的語法就簡化成xxx.function，例如:import math as m, x=m.cos(m.pi)</t>
 <t tx="leo.20181224135322.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -382,18 +370,11 @@ img.show()&gt;
 
 						
 </t>
-<t tx="leo.20181224135322.2">### Finalproject-bg8 分組網際簡報
-
-### 虎科大機械設計工程系
-
-&lt;small&gt;
-Created by [KMOLab](http://lab.kmol.info/)
-&lt;/small&gt;
-
-[Finalproject-bg8 分組網誌](./../blog/index.html)
-
-
-</t>
+<t tx="leo.20181224135322.2">* 除法 /，注意：兩個整數相除，結果是實數，如：x = 21, y = 10, c = x / y → c = 2.1
+* 次方 **
+* 取餘數 %
+* 整除至最近整數 //，相除後取最接近的整數(整實數)，結果的類型取決於兩個變數的類型，如：9//2 = 4； 9.0//2.0 = 4.0；11.0//3 = 4.0
+* 如果要進行下面的運算 a= a+b (用a+b的結果為a重新賦值)，在python可以改寫成： a += b，所以算術運算符號可以有+=；-=；*=；/=；%=；**=；//=</t>
 <t tx="leo.20190105143437.1">&lt;section data-markdown&gt;
 
     &lt;script type="text/template"&gt;
@@ -501,7 +482,9 @@ Created by [KMOLab](http://lab.kmol.info/)
 
 2..範例皆在kmolgame -&gt; 最簡單的 Ggame 範例 -&gt; game body內
 
-3.各組討論</t>
+3.各組討論
+
+</t>
 <t tx="leo.20190105145403.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -515,7 +498,9 @@ Created by [KMOLab](http://lab.kmol.info/)
 
 1.利用MikTeX 與 Pandoc做簡報協同
 
-2.利用協同 Markdown 編輯建立期末報告</t>
+2.利用協同 Markdown 編輯建立期末報告
+
+</t>
 <t tx="leo.20190105145450.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -529,7 +514,9 @@ Created by [KMOLab](http://lab.kmol.info/)
 
 1.老師親自遊戲示範練習
 
-2.開發遊戲</t>
+2.開發遊戲
+
+</t>
 <t tx="leo.20190105145552.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -545,7 +532,9 @@ Created by [KMOLab](http://lab.kmol.info/)
 
 專題名稱:小遊戲
 
-開始思考如何做  做甚麼 </t>
+開始思考如何做  做甚麼 
+
+</t>
 <t tx="leo.20190105145626.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -557,7 +546,9 @@ Created by [KMOLab](http://lab.kmol.info/)
 
 						
 </t>
-<t tx="leo.20190105145626.2">### 回顧 week10~17</t>
+<t tx="leo.20190105145626.2">### 回顧 week10~17
+
+</t>
 <t tx="leo.20190105152206.1">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -572,13 +563,9 @@ Created by [KMOLab](http://lab.kmol.info/)
 
 						
 </t>
-<t tx="leo.20190105152206.11"># week 13
-
-1.kmolgame範例來做講解
-
-2..範例皆在kmolgame -&gt; 最簡單的 Ggame 範例 -&gt; game body內
-
-3.各組討論</t>
+<t tx="leo.20190105152206.11">* python variable types(變量類型)，Number 數值，int: a=11，float: a=1.1e-18，complex: a= 4.+7j，String 字串 ( 用 " " 或 ' ' 夾起 )，e.g.x="Hello World!" or x='Hello World!'，取出字串的局部：x[0:3]
+* 注意：index 從 0 開始計算!
+* [a:b]--begin at index a and before index b (e.g., x[0:3]-&gt;"Hel")，不可以對字串局部更改，例如：e.g.x[0:3]="Yo!" (這是錯誤的)</t>
 <t tx="leo.20190105152206.12">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -588,11 +575,8 @@ Created by [KMOLab](http://lab.kmol.info/)
 
 						
 </t>
-<t tx="leo.20190105152206.13"># week 14~15
-
-1.利用MikTeX 與 Pandoc做簡報協同
-
-2.利用協同 Markdown 編輯建立期末報告</t>
+<t tx="leo.20190105152206.13">* Boolean 邏輯，只有True，False兩種值，根據邏輯判斷 (IF condition) 的結果決定，兩個boolean變數做運算，會以True=1，False=0 做整數運算
+* Python variables: list and tuple，list, tuple，類似陣列的概念，但可以混雜儲存不同型態的資料，如下：List： x = [ 'abcd', 786 , 2.23, 'john', 70.2]；Tuple: y = ( 'abcd', 786 , 2.23, 'john', 70.2)， assignment: list 使用 [], tuple 使用(), 每個元素都用"  "分開，list 的大小及元素可以改變。tuple則不行，sub-list 或是 sub-tuple語法類似取出字串局部，如下：x[0:2]  ['abcd', 786 ]；y[2:4]  (786, 2.23 )</t>
 <t tx="leo.20190105152206.14">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -602,11 +586,10 @@ Created by [KMOLab](http://lab.kmol.info/)
 
 						
 </t>
-<t tx="leo.20190105152206.15"># week 16~17
-
-1.老師親自遊戲示範練習
-
-2.開發遊戲</t>
+<t tx="leo.20190105152206.15">* Convert data type，有時候需要不同型態的資料轉換，例如將字串"10"轉成整數10下列為常用的built-in function，如：int (x)，float (x)，str (x)
+* Arithmetic Operators，加法+，string 相加：形成新的字串，如：x="Hello", y="World", c=x+y→ c="HelloWorld"
+* 減法 - 和加法用法相似
+* 乘法 *，string 乘一個數字(int)：字串重複幾次，如：x = "Yo", y=x * 3 → y= "Yo!Yo!Yo!"</t>
 <t tx="leo.20190105152206.2">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -618,7 +601,9 @@ Created by [KMOLab](http://lab.kmol.info/)
 
 						
 </t>
-<t tx="leo.20190105152206.3">### 回顧 week10~17</t>
+<t tx="leo.20190105152206.3">### Python 基本語法
+* "#" 符號後是註解 ( comment ) ，可以在一列的開頭或中間加入
+* reserved word or built-in function( 變數取名請避開) and，exec，not，as，finally，or，assert，for，pass，except，break，from，print，class，global，raise，continue，if，return，def，import，try，del，in，while，elif，is，with，else，lambda，yield</t>
 <t tx="leo.20190105152206.4">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -630,21 +615,10 @@ Created by [KMOLab](http://lab.kmol.info/)
 
 						
 </t>
-<t tx="leo.20190105152206.5"># week 10
-
-1.更新p37
-
-2.學習eric 6
-
-3.介紹程式語言、Qt及PyQt的發展
-
-
-
-
-
-
-
-
+<t tx="leo.20190105152206.5">* 縮排視為不同的block(在IF判斷是或迴圈的段落中使用)，縮排可以用tab或是數個空格( ≧ 1 )，空格的數量不同，是為不同的block ( bug 容易因為這一點而產生 )
+* python 的每個變數視為一個 object
+* python variables 不需要事先宣告變數，直接用"=" assign value ( 賦值 ) 即可，例如： x = 3.14 → 實數變數
+* 變數類型 ( data type ) 根據被賦予的值決定 ( 之後若是被分配不同類型的數值，該變數的類型會直接改變 ) 例如：x = 'text' → 字串變數
 
 
 
@@ -664,18 +638,11 @@ Created by [KMOLab](http://lab.kmol.info/)
 
 						
 </t>
-<t tx="leo.20190105152206.7"># week 11
-
-1.期末分組專案說明
-
-2.Heroku
-
-(一)創建一個Heroku帳號
-
-(二)將Github的分組倉儲跟Heroku的雲端網站做link
-
-(三)讓資料多一分保障
-</t>
+<t tx="leo.20190105152206.7">* 確認辨識的 data type:type(x)
+* 變數的名稱大小寫要完全一致，否則會被當成不同的變數
+* python 可以在同一指令對多個變數賦值，例如：x, y=2, 1 → x = 2, y = 1
+* 若是要移除變數，使用del x y
+* 常用的 data type：number，string，list，tuple，boolean</t>
 <t tx="leo.20190105152206.8">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -687,10 +654,8 @@ Created by [KMOLab](http://lab.kmol.info/)
 
 						
 </t>
-<t tx="leo.20190105152206.9"># week 12
-
-專題名稱:小遊戲
-
-開始思考如何做  做甚麼 </t>
+<t tx="leo.20190105152206.9">* input("...")在螢幕上顯示字串，並等待使用者輸入字串，x = input("input your name:") 螢幕上會顯示訊息 input your name:，使用者輸入的內容，會用字串類型存到x變形，就算使用者輸入數字仍然是以字串類型儲存
+* print (...) 顯示在螢幕上，e.g.print ("Hello World!!")，若是要一次輸出多個變數到螢幕上，直接以","分開，如：e.g.print(x,y,z)，也可以format output
+</t>
 </tnodes>
 </leo_file>
