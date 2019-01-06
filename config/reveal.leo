@@ -88,11 +88,14 @@
 <v t="leo.20180827201621.13"><vh>遊戲簡介</vh>
 <v t="leo.20180827201621.14"><vh>遊戲簡介</vh></v>
 </v>
-<v t="leo.20190106155819.1" a="E"><vh>遊戲</vh>
+<v t="leo.20190106155819.1"><vh>遊戲</vh>
 <v t="leo.20190106155819.2"><vh>ggame</vh></v>
 </v>
 <v t="leo.20190106160717.1"><vh>期末自評</vh>
 <v t="leo.20190106160717.2"><vh>FA♀Q</vh></v>
+</v>
+<v t="leo.20190106162900.1" a="E"><vh>End</vh>
+<v t="leo.20190106162900.2"><vh>FA♀Q</vh></v>
 </v>
 </v>
 </v>
@@ -218,7 +221,9 @@ Created by [Finalproject-bg8](https://mdecp2018.github.io/finalproject-bg8/conte
 						
 </t>
 <t tx="leo.20180827201621.14">## 遊戲簡介
-* 最初是想要把遊戲做成一個抓倉鼠的遊戲，把所有倉鼠抓進洞裡面，就獲得勝利，但由於不會定義消失的程式語言，只好以目前實況呈現。</t>
+* 最初是想要把遊戲做成一個抓倉鼠的遊戲，把所有倉鼠抓進洞裡面，就獲得勝利，但由於不會定義消失的程式語言，只好以目前實況呈現。
+
+</t>
 <t tx="leo.20180827201621.2"></t>
 <t tx="leo.20180827201621.3">@language xml
 @tabwidth -4
@@ -646,7 +651,9 @@ Created by [Finalproject-bg8](https://mdecp2018.github.io/finalproject-bg8/conte
 
 * 40723218 林志豪 ( 上台報告 )
 * 40723222 姚政良 ( 做revel,網站維護,遊戲討論 )
-* 40723242 趙子德 ( 做遊戲,網站維護,遊戲討論,pdf )</t>
+* 40723242 趙子德 ( 做遊戲,網站維護,遊戲討論,pdf )
+
+</t>
 <t tx="leo.20190106155819.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -688,5 +695,17 @@ Created by [Finalproject-bg8](https://mdecp2018.github.io/finalproject-bg8/conte
 
 
 </t>
+<t tx="leo.20190106162900.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190106162900.2">### End
+
+* python 是用英文組成的程式語言，唯有把英文學好，才能事半功倍，畢竟學習沒有盡頭，這樣一來才能在人生裡有限的時間內掌握更多的知識與技術。</t>
 </tnodes>
 </leo_file>
