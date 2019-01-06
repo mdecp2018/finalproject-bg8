@@ -82,8 +82,8 @@
 <v t="leo.20181224134500.2"><vh>10</vh></v>
 </v>
 </v>
-<v t="leo.20180827201621.13" a="E"><vh>對未來的期許</vh>
-<v t="leo.20180827201621.14"><vh>python語法-1</vh></v>
+<v t="leo.20180827201621.13" a="E"><vh>遊戲</vh>
+<v t="leo.20180827201621.14"><vh>我的回合 斗肉</vh></v>
 </v>
 </v>
 </v>
@@ -208,7 +208,9 @@ Created by [Finalproject-bg8](https://mdecp2018.github.io/finalproject-bg8/conte
 
 						
 </t>
-<t tx="leo.20180827201621.14">* 想把Python學好，就必須先把英文搞好，不然只會事倍功半，導致許多的的問題產生，而且程式語言的路程是沒有盡頭的，隨著科技的進步，路途就會更加長遠。</t>
+<t tx="leo.20180827201621.14">* 遊戲：抓老鼠
+&lt;p&gt;&lt;a href="https://upload.cc/i1/2019/01/06/L5d6nV.png"&gt;&lt;img src="https://upload.cc/i1/2019/01/06/L5d6nV.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+</t>
 <t tx="leo.20180827201621.2"></t>
 <t tx="leo.20180827201621.3">@language xml
 @tabwidth -4
