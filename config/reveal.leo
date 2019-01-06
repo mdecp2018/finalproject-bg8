@@ -715,7 +715,7 @@ Created by [Finalproject-bg8](https://mdecp2018.github.io/finalproject-bg8/conte
 						
 </t>
 <t tx="leo.20190106162900.2">### End
-####總結
+##### 總結
 
 * 經過這學期，真心覺得，唯有把英文學好，才能事半功倍，不論是在python、eric、Qt......等程式語言的學習，所以現在未來都必須認真的學習及把握當下才能，開創自己的另一片天.
 
@@ -729,8 +729,7 @@ Created by [Finalproject-bg8](https://mdecp2018.github.io/finalproject-bg8/conte
 
 						
 </t>
-<t tx="leo.20190106211606.2">## 兔子跳(兔子咬雞雞)
-
+<t tx="leo.20190106211606.2">## 兔子跳 
 * &lt;p&gt;&lt;a href="https://upload.cc/i1/2019/01/06/7Ob5Vr.png"&gt;&lt;img src="https://upload.cc/i1/2019/01/06/7Ob5Vr.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
 </t>
 <t tx="leo.20190106211633.1">&lt;section data-markdown&gt;
@@ -756,6 +755,8 @@ Created by [Finalproject-bg8](https://mdecp2018.github.io/finalproject-bg8/conte
 						
 </t>
 <t tx="leo.20190106211654.2">## 心得
-我們利用老師給予的檔案所做成但是,Ggame似乎在網上並不是很通用的語言,找不到甚麼介紹,加上是初學者真的不知從何定義,因此做得蠻煎熬的,雖然有英文的電子書.</t>
+我們利用老師給予的檔案所做成但是,Ggame似乎在網上並不是很通用的語言,找不到甚麼介紹,加上是初學者真的不知從何定義,因此做得蠻煎熬的,雖然有英文的電子書.
+
+</t>
 </tnodes>
 </leo_file>
