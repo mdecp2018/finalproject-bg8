@@ -24,8 +24,11 @@
 <v t="leo.20180827201621.9" a="E"><vh>首頁</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20190105143437.1" a="E"><vh>2</vh>
-<v t="leo.20190105143437.2"><vh>封面投影片內容</vh></v>
+<v t="leo.20190105143437.1" a="E"><vh>期中自評</vh>
+<v t="leo.20190105143437.2"><vh>期中自評01</vh></v>
+</v>
+<v t="leo.20190106154500.1" a="E"><vh>分工</vh>
+<v t="leo.20190106154500.2"><vh>分工-1</vh></v>
 </v>
 <v t="leo.20190105145316.1" a="E"><vh>回顧</vh>
 <v t="leo.20190105145626.1" a="E"><vh>回顧</vh>
@@ -82,8 +85,14 @@
 <v t="leo.20181224134500.2"><vh>10</vh></v>
 </v>
 </v>
-<v t="leo.20180827201621.13" a="E"><vh>遊戲</vh>
-<v t="leo.20180827201621.14"><vh>我的回合 斗肉</vh></v>
+<v t="leo.20180827201621.13"><vh>遊戲簡介</vh>
+<v t="leo.20180827201621.14"><vh>遊戲簡介</vh></v>
+</v>
+<v t="leo.20190106155819.1" a="E"><vh>遊戲</vh>
+<v t="leo.20190106155819.2"><vh>ggame</vh></v>
+</v>
+<v t="leo.20190106160717.1"><vh>期末自評</vh>
+<v t="leo.20190106160717.2"><vh>FA♀Q</vh></v>
 </v>
 </v>
 </v>
@@ -208,9 +217,8 @@ Created by [Finalproject-bg8](https://mdecp2018.github.io/finalproject-bg8/conte
 
 						
 </t>
-<t tx="leo.20180827201621.14">* 遊戲：抓老鼠
-&lt;p&gt;&lt;a href="https://upload.cc/i1/2019/01/06/L5d6nV.png"&gt;&lt;img src="https://upload.cc/i1/2019/01/06/L5d6nV.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
-</t>
+<t tx="leo.20180827201621.14">## 遊戲簡介
+* 最初是想要把遊戲做成一個抓倉鼠的遊戲，把所有倉鼠抓進洞裡面，就獲得勝利，但由於不會定義消失的程式語言，只好以目前實況呈現。</t>
 <t tx="leo.20180827201621.2"></t>
 <t tx="leo.20180827201621.3">@language xml
 @tabwidth -4
@@ -624,6 +632,61 @@ Created by [Finalproject-bg8](https://mdecp2018.github.io/finalproject-bg8/conte
 </t>
 <t tx="leo.20190105152206.9">* input("...")在螢幕上顯示字串，並等待使用者輸入字串，x = input("input your name:") 螢幕上會顯示訊息 input your name:，使用者輸入的內容，會用字串類型存到x變形，就算使用者輸入數字仍然是以字串類型儲存
 * print (...) 顯示在螢幕上，e.g.print ("Hello World!!")，若是要一次輸出多個變數到螢幕上，直接以","分開，如：e.g.print(x,y,z)，也可以format output
+</t>
+<t tx="leo.20190106154500.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190106154500.2">## 小組分工
+
+* 40723218 林志豪 ( 上台報告 )
+* 40723222 姚政良 ( 做revel,網站維護,遊戲討論 )
+* 40723242 趙子德 ( 做遊戲,網站維護,遊戲討論,pdf )</t>
+<t tx="leo.20190106155819.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190106155819.2">* 遊戲：抓倉鼠
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=2de5ZF7T02o&amp;feature=youtu.be"&gt;&lt;img src="https://upload.cc/i1/2019/01/06/L5d6nV.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+</t>
+<t tx="leo.20190106160717.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190106160717.2">## 期末自評
+
+40723218 林志豪 (期末自評成績：? )
+
+40723222 姚政良 (期末自評成績：60)
+
+40723230 王冠樺 (期末自評成績：? )
+
+40723231 陳祺馮 (期末自評成績：? )
+
+40723242 趙子德 (期末自評成績：70)
+
+40723250 羅村偉 (期末自評成績：? )
+
+
+
+
+
+
 </t>
 </tnodes>
 </leo_file>
