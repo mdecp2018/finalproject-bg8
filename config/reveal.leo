@@ -85,13 +85,22 @@
 <v t="leo.20181224134500.2"><vh>10</vh></v>
 </v>
 </v>
-<v t="leo.20180827201621.13"><vh>遊戲簡介</vh>
+<v t="leo.20180827201621.13" a="E"><vh>遊戲簡介</vh>
 <v t="leo.20180827201621.14"><vh>遊戲簡介</vh></v>
 </v>
-<v t="leo.20190106155819.1"><vh>遊戲</vh>
+<v t="leo.20190106211606.1" a="E"><vh>遊戲簡介</vh>
+<v t="leo.20190106211606.2"><vh>1</vh></v>
+</v>
+<v t="leo.20190106211633.1" a="E"><vh>遊戲簡介</vh>
+<v t="leo.20190106211633.2"><vh>2</vh></v>
+</v>
+<v t="leo.20190106211654.1" a="E"><vh>遊戲簡介</vh>
+<v t="leo.20190106211654.2"><vh>3</vh></v>
+</v>
+<v t="leo.20190106155819.1" a="E"><vh>遊戲</vh>
 <v t="leo.20190106155819.2"><vh>ggame</vh></v>
 </v>
-<v t="leo.20190106160717.1"><vh>期末自評</vh>
+<v t="leo.20190106160717.1" a="E"><vh>期末自評</vh>
 <v t="leo.20190106160717.2"><vh>FA♀Q</vh></v>
 </v>
 <v t="leo.20190106162900.1" a="E"><vh>End</vh>
@@ -362,7 +371,7 @@ Created by [Finalproject-bg8](https://mdecp2018.github.io/finalproject-bg8/conte
 
 40723222 姚政良 (期中自評成績：60)
 
-40723230 王冠樺 (期中自評成績：70)
+40723230 陳冠樺 (期中自評成績：70)
 
 40723231 陳祺馮 (期中自評成績：60)
 
@@ -485,7 +494,7 @@ Created by [Finalproject-bg8](https://mdecp2018.github.io/finalproject-bg8/conte
 
 1.老師親自遊戲示範練習
 
-2.開發遊戲
+2.完成開發遊戲
 
 </t>
 <t tx="leo.20190105145552.1">&lt;section data-markdown&gt;
@@ -503,7 +512,7 @@ Created by [Finalproject-bg8](https://mdecp2018.github.io/finalproject-bg8/conte
 
 專題名稱:小遊戲
 
-開始思考如何做  做甚麼 
+開始思考 如何做  做甚麼 
 
 </t>
 <t tx="leo.20190105145626.1">&lt;section data-markdown&gt;
@@ -651,7 +660,8 @@ Created by [Finalproject-bg8](https://mdecp2018.github.io/finalproject-bg8/conte
 
 * 40723218 林志豪 ( 上台報告 )
 * 40723222 姚政良 ( 做revel,網站維護,遊戲討論 )
-* 40723242 趙子德 ( 做遊戲,網站維護,遊戲討論,pdf )
+* 40723242 趙子德 ( 做遊戲,網站維護,遊戲討論,製作pdf )
+* 40723250 羅村偉 ( 上台報告 )
 
 </t>
 <t tx="leo.20190106155819.1">&lt;section data-markdown&gt;
@@ -677,17 +687,17 @@ Created by [Finalproject-bg8](https://mdecp2018.github.io/finalproject-bg8/conte
 </t>
 <t tx="leo.20190106160717.2">## 期末自評
 
-40723218 林志豪 (期末自評成績：? )
+40723218 林志豪 (期末自評成績：60 )
 
 40723222 姚政良 (期末自評成績：60)
 
-40723230 王冠樺 (期末自評成績：? )
+40723230 陳冠樺 (期末自評成績：? )
 
 40723231 陳祺馮 (期末自評成績：? )
 
 40723242 趙子德 (期末自評成績：70)
 
-40723250 羅村偉 (期末自評成績：? )
+40723250 羅村偉 (期末自評成績：60 )
 
 
 
@@ -705,7 +715,47 @@ Created by [Finalproject-bg8](https://mdecp2018.github.io/finalproject-bg8/conte
 						
 </t>
 <t tx="leo.20190106162900.2">### End
+####總結
 
-* python 是用英文組成的程式語言，唯有把英文學好，才能事半功倍，畢竟學習沒有盡頭，這樣一來才能在人生裡有限的時間內掌握更多的知識與技術。</t>
+* 經過這學期，真心覺得，唯有把英文學好，才能事半功倍，不論是在python、eric、Qt......等程式語言的學習，所以現在未來都必須認真的學習及把握當下才能，開創自己的另一片天.
+
+</t>
+<t tx="leo.20190106211606.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190106211606.2">## 兔子跳(兔子咬雞雞)
+
+* &lt;p&gt;&lt;a href="https://upload.cc/i1/2019/01/06/7Ob5Vr.png"&gt;&lt;img src="https://upload.cc/i1/2019/01/06/7Ob5Vr.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+</t>
+<t tx="leo.20190106211633.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190106211633.2">## 太空大戰-戰機碰撞消失之特效
+
+* &lt;p&gt;&lt;a href="https://upload.cc/i1/2019/01/06/S847Jc.png"&gt;&lt;img src="https://upload.cc/i1/2019/01/06/S847Jc.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+</t>
+<t tx="leo.20190106211654.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190106211654.2">## 心得
+我們利用老師給予的檔案所做成但是,Ggame似乎在網上並不是很通用的語言,找不到甚麼介紹,加上是初學者真的不知從何定義,因此做得蠻煎熬的,雖然有英文的電子書.</t>
 </tnodes>
 </leo_file>
