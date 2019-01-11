@@ -20,6 +20,96 @@
 <p><span style="color: #000000;"><a href="https://github.com/s40723231" style="color: #000000;"><span style="background-color: #ffffff;">40723231</span></a> <span>陳祺馮</span>(<span style="background-color: #ffffff;">期中自評成績：60) (期末自評成績：?)</span></span></p>
 <p><span style="color: #000000; background-color: #ffffff;"><a href="https://github.com/s40723242" style="color: #000000;">40723242</a> 趙子德(期中自評成績：80)<span style="color: #000000;"> (期末自評成績：70)</span></span></p>
 <p><span style="color: #000000;"><a href="https://github.com/s40723250" style="color: #000000;"><span style="background-color: #ffffff;">40723250</span></a> 羅村偉(<span style="background-color: #ffffff;">期中自評成績：60) (期末自評成績：60)</span><span style="background-color: #ffffff;"></span></span></p>
+<h1>期末專題程式碼</h1>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">from random import random, randint
+from ggame import (
+    App, 
+    Color, 
+    LineStyle, 
+    Sprite, 
+    RectangleAsset, 
+    ImageAsset, 
+    CircleAsset, 
+    EllipseAsset, 
+    PolygonAsset, 
+    Frame, 
+    MouseEvent, 
+    SoundAsset, 
+    Sound, 
+    TextAsset,
+)
+import math
+from time import time
+
+
+class Ball(Sprite):
+    
+    asset = ImageAsset("images/5bae3324Nf584553a.png")
+
+    def __init__(self, position):
+        super().__init__(Ball.asset, position)
+
+    def step(self):
+      pass
+class Bunny(Sprite):
+
+    asset = ImageAsset("images/fk.png")
+
+    def __init__(self, position, app):
+        super().__init__(Bunny.asset, position)
+        # register mouse events
+        app.listenMouseEvent(MouseEvent.mousedown, self.mousedown)
+        app.listenMouseEvent(MouseEvent.mouseup, self.mouseup)
+        app.listenMouseEvent(MouseEvent.mousemove, self.mousemove)
+        self.ball = app.ball
+        self.dragging = False
+
+    def step(self):
+        if self.ball.x &lt;= self.x &lt;= self.ball.x + self.ball.width and self.ball.y &lt;= self.y &lt;= self.ball.y + self.ball.height:
+            self.visible = False
+        if random() &lt; 0.04:
+            self.x += randint(-20,20)
+            self.y += randint(-20,20)
+
+    def mousedown(self, event):
+        # capture any mouse down within 50 pixels
+        self.deltax = event.x - (self.x + self.width//2) 
+        self.deltay = event.y - (self.y + self.height//2)
+        if abs(self.deltax) &lt; 40 and abs(self.deltay) &lt; 40:
+            self.dragging = True
+            # only drag one bunny at a time - consume the event
+            event.consumed = True
+
+    def mousemove(self, event):
+        if self.dragging:
+            self.x = event.x - self.deltax - self.width//2
+            self.y = event.y - self.deltay - self.height//2
+            event.consumed = True
+
+    def mouseup(self, event):
+        if self.dragging:
+            self.dragging = False
+            event.consumed = True
+            
+class DemoApp(App):
+        
+    def __init__(self):
+        super().__init__()
+        self.ball = Ball((self.width/2, self.height/2))
+        self.bu = []
+        for i in range(20):
+            self.bu.append(Bunny((randint(50,self.width),randint(50,self.height)), self))
+
+    def step(self):
+        for bunny in self.bu:
+            bunny.step()
+            bunny.scale = 1
+        self.ball.step()
+
+# Create the app
+app = DemoApp()
+# Run the app
+app.run()</pre>
 <h1>Billboard</h1>
 <h2>12.10</h2>
 <p><span style="color: #000000;">1.請各組員自行填寫每次課程心得</span></p>
